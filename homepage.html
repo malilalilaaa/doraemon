@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doraemon | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="homepage.css" />
+</head>
+<body>
+
+  
+  <header class="navbar" id="top">
+    <div class="navbar__inner">
+
+      <a href="#top" class="logo">
+        <span class="logo__bell" aria-hidden="true"></span>
+        Doraemon<span class="logo__dot">.</span>
+      </a>
+
+      <nav class="nav" id="primaryNav">
+        <ul class="nav__list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Gadgets</a></li>
+          <li><a href="#projects">Adventures</a></li>
+          <li><a href="#contact" class="nav__cta">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+
+  
+  <section class="hero" id="hero">
+    <div class="hero__text">
+
+      <p class="eyebrow">22nd-century robot cat · class of the future</p>
+
+      <h1 class="hero__title">
+        Hi, I'm <span class="highlight">Doraemon</span> <span class="wave" aria-hidden="true">👋</span>
+      </h1>
+
+      <p class="hero__subtitle">
+        I'm <span id="typedRole" class="typed"></span><span class="cursor" aria-hidden="true">|</span>
+      </p>
+
+      <p class="hero__desc">
+        Future gadget builder, problem solver, and Nobita's best friend.
+        This is a sample portfolio front page — built with plain
+        <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> —
+        to show you the structure you'll use for YOUR own final project.
+      </p>
+
+      <div class="hero__buttons">
+        <a href="#projects" class="btn btn--primary">See My Adventures</a>
+        <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+      </div>
+    </div>
+
+    <div class="hero__art" aria-hidden="true">
+      <div class="doraemon">
+        <div class="doraemon__head">
+          <div class="doraemon__face">
+            <div class="doraemon__eye doraemon__eye--left"><div class="doraemon__pupil"></div></div>
+            <div class="doraemon__eye doraemon__eye--right"><div class="doraemon__pupil"></div></div>
+            <div class="doraemon__nose"></div>
+            <div class="doraemon__whiskers doraemon__whiskers--left"></div>
+            <div class="doraemon__whiskers doraemon__whiskers--right"></div>
+            <div class="doraemon__mouth"></div>
+          </div>
+          <div class="doraemon__collar">
+            <div class="doraemon__bell"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about" id="about">
+    <div class="section__heading">
+      <p class="eyebrow">About</p>
+      <h2>A little about me</h2>
+    </div>
+
+    <div class="about__grid">
+      <p class="about__text">
+        I came from the 22nd century to help my friend Nobita using gadgets
+        from my 4-D pocket. I love bread (dorayaki especially), I'm scared of
+        mice, and I believe every problem has a clever gadget-shaped
+        solution. In this class, swap this paragraph with two or three
+        sentences about <em>you</em>: who you are, what you're learning, and
+        what kind of work you want to show off.
+      </p>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat__num" data-count="100">0</span>
+          <span class="stat__label">Gadgets Used</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="22">0</span>
+          <span class="stat__label">Century I'm From</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="1">0</span>
+          <span class="stat__label">Best Friend</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="skills" id="skills">
+    <div class="section__heading">
+      <p class="eyebrow">Skills</p>
+      <h2>My favorite gadgets</h2>
+      <p class="section__sub">Click a card to reveal what it does — handled entirely in script.js</p>
+    </div>
+
+    <div class="card-grid" id="gadgetGrid">
+      
+      <button class="gadget-card" data-fact="Instant teleportation to anywhere in the world — perfect for skipping the morning commute!">
+        <span class="gadget-card__icon">🚪</span>
+        <h3>Anywhere Door</h3>
+        <p>Click to reveal what it does</p>
+      </button>
+
+      <button class="gadget-card" data-fact="Lets you fly without wings or a plane ticket — just a little propeller on your head.">
+        <span class="gadget-card__icon">🚁</span>
+        <h3>Take-copter</h3>
+        <p>Click to reveal what it does</p>
+      </button>
+
+      <button class="gadget-card" data-fact="Shrinks anything to a pocket-sized version — handy for HTML files that got way too big.">
+        <span class="gadget-card__icon">🔍</span>
+        <h3>Small Light</h3>
+        <p>Click to reveal what it does</p>
+      </button>
+
+      <button class="gadget-card" data-fact="Lets you see 5 minutes into the future — great for debugging before the bug even happens.">
+        <span class="gadget-card__icon">🔮</span>
+        <h3>Time TV</h3>
+        <p>Click to reveal what it does</p>
+      </button>
+    </div>
+  </section>
+
+
+
+  <section class="projects" id="projects">
+    <div class="section__heading">
+      <p class="eyebrow">Projects</p>
+      <h2>Recent adventures</h2>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-card__thumb">🕰️</div>
+        <h3>Trip to the Dinosaur Age</h3>
+        <p>Used the Time Machine drawer to help Nobita befriend a baby dinosaur.</p>
+        <a href="#" class="project-card__link">View case study →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__thumb">🌙</div>
+        <h3>Building a Moon Colony</h3>
+        <p>Helped design and build a secret rabbit-themed base on the moon.</p>
+        <a href="#" class="project-card__link">View case study →</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__thumb">🤖</div>
+        <h3>Robot Soccer Tournament</h3>
+        <p>Coached the neighborhood team to victory using fair-play gadgets only.</p>
+        <a href="#" class="project-card__link">View case study →</a>
+      </article>
+    </div>
+  </section>
+
+
+
+  <section class="contact" id="contact">
+    <div class="section__heading">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's talk</h2>
+      <p class="section__sub">Fill this out and check the browser console / on-screen message.</p>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Nobita Nobi" required />
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required />
+      </div>
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn--primary">Send Message</button>
+
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </section>
+
+
+
+  <footer class="footer">
+    <p>Built with HTML, CSS &amp; JS for a beginner web dev class · © <span id="year"></span> Doraemon Portfolio Demo</p>
+    <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">↑</a>
+  </footer>
+
+  <script src="homepage.js"></script>
+</body>
+</html>
